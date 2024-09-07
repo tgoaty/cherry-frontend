@@ -1,8 +1,8 @@
+import Router from "./components/Router.tsx";
+
 const App = () => {
     return (
-        <div>
-            work
-        </div>
+        <Router/>
     );
 };
 
