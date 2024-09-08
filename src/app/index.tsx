@@ -1,4 +1,4 @@
-import Router from "./components/Router.tsx";
+import Router from "../pages/Router.tsx";
 
 const App = () => {
     return (

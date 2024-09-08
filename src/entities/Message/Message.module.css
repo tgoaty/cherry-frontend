@@ -1,0 +1,25 @@
+.message {
+    margin: 2px;
+    padding: 4px 8px;
+    border-radius: 6px;
+    width: min-content;
+    min-width: 40px;
+    max-width: 250px;
+}
+
+.your {
+    margin-left: auto;
+
+}
+
+.other {
+    background-color: var(--second-color);
+}
+
+.text {
+
+}
+
+.username {
+
+}

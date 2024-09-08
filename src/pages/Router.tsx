@@ -1,9 +1,9 @@
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
-import ConnectChatPage from "./ConnectChatPage.tsx";
-import ChatPage from "./ChatPage.tsx";
+import ConnectChatPage from "./ConnectChat/ConnectChatPage.tsx";
+import ChatPage from "./Chat/ChatPage.tsx";
 import {Suspense} from "react";
-import Loader from "./Loader.tsx";
-import NotFoundPage from "./NotFoundPage.tsx";
+import Loader from "../shared/ui/Loader.tsx";
+import NotFoundPage from "./NotFound/NotFoundPage.tsx";
 
 const router = createBrowserRouter([
     {
